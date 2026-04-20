@@ -1,9 +1,8 @@
-# Network Security: TCP Attacks & ECC Implementation
+# Network Security:  ECC Implementation
 
 ## Overview
-This repository contains two assignments:
-1. **TCP Attacks Analysis** – Hijacking, Poisoning, SYN Flooding
-2. **ECC Implementation** – Elliptic Curve Cryptography with ECDH, AES, and digital signatures
+This repository contains one assignments:
+1. **ECC Implementation** – Elliptic Curve Cryptography with ECDH, AES, and digital signatures
 
 ---
 
@@ -70,16 +69,6 @@ python performance_test.py
 | 128 bits | 3072 bits | 256 bits |
 | 192 bits | 7680 bits | 384 bits |
 | 256 bits | 15360 bits | 512 bits |
-
----
-
-## TCP Attacks Covered
-
-| Attack | Target | Mitigation |
-|--------|--------|------------|
-| TCP Hijacking | Session control | TLS/Encryption |
-| TCP Poisoning | Data integrity | ISN randomization |
-| SYN Flooding | Availability | SYN Cookies |
 
 ---
 
